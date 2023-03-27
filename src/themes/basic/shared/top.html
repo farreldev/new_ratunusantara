@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scalable=no />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Sinergi</title>
+	<!-- External Font Google or other -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+		rel="stylesheet">
+	<!-- End External Font -->
+
+	<!-- External Lib -->
+	<!-- End External Lib -->
+
+	<!-- Main css or Style.css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+	<!-- End Main css -->
+
+	<!-- Additional Styles -->
+	@@if (context.styles) {
+	@@for(var i=0;i < styles.length;i++) { <link href="`+styles[i]+`" rel="stylesheet">
+		}
+		}
+		<!-- End Additional Styles -->
+
+		<!-- Setup Primary Color (#df4429 backup) -->
+		<style>
+			:root {
+				--primary-default: #F2050E;
+				--primary-dark: #dc060d;
+				--dark: #414143;
+			}
+		</style>
+		<!-- End Setup Primary Color -->
+
+</head>
+
+<body>

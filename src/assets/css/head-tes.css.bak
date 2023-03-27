@@ -1,0 +1,71 @@
+.headNavWithMegaMenu {
+  @apply transition-all duration-300 ease-in-out; }
+  .headNavWithMegaMenu .topmenu-mega-trial {
+    @apply mr-4; }
+    .headNavWithMegaMenu .topmenu-mega-trial > ul {
+      @apply space-x-5; }
+      .headNavWithMegaMenu .topmenu-mega-trial > ul li {
+        @apply inline-block cursor-pointer; }
+        .headNavWithMegaMenu .topmenu-mega-trial > ul li > a {
+          @apply text-[15px] inline-block text-white font-montserrat font-medium py-2 uppercase; }
+        .headNavWithMegaMenu .topmenu-mega-trial > ul li.active > a {
+          @apply relative before:absolute before:content-[''] before:h-[2px] before:w-full before:bg-white before:left-0 before:-bottom-0; }
+        .headNavWithMegaMenu .topmenu-mega-trial > ul li:hover > a {
+          @apply text-white/[.7]; }
+        .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst {
+          @apply after:inline-block after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-white after:relative after:-top-[1px] after:align-middle after:ml-1; }
+          .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub {
+            @apply absolute pt-2.5 right-0 w-full hidden; }
+            .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub ul li {
+              @apply block capitalize; }
+              .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub ul li > a {
+                @apply block py-1 px-2 font-semibold; }
+                .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub ul li > a:hover {
+                  @apply bg-white text-[#fba792]; }
+            .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub .childMnu li {
+              @apply capitalize; }
+              .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst .wrap-sub .childMnu li > a {
+                @apply capitalize font-semibold tracking-wider; }
+          .headNavWithMegaMenu .topmenu-mega-trial > ul li.sublst:hover .wrap-sub {
+            @apply block; }
+  .headNavWithMegaMenu .humburger-btn {
+    @apply text-white; }
+  .headNavWithMegaMenu.inner {
+    @apply bg-[#fba792]; }
+
+.mobileTopmenuWithMegaMenu {
+  @apply bg-black/[.7] w-full h-full fixed overflow-auto top-0 left-0 transition-all duration-500 ease-in-out opacity-0 pointer-events-none; }
+  .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu {
+    @apply bg-[#fba792] relative w-full h-auto -top-full transition-all duration-500 ease-in-out flex flex-col space-y-5; }
+    .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu .headMobileNavWithMegaMenu {
+      @apply border-b border-white/[.35]; }
+      .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu .headMobileNavWithMegaMenu a[title='closeBtn'] {
+        @apply w-10 h-10 flex justify-center items-center; }
+    .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul {
+      @apply space-y-2 px-5; }
+      .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li {
+        @apply uppercase font-montserrat py-1; }
+        .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li a {
+          @apply font-montserrat font-semibold text-white; }
+        .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.active {
+          @apply relative before:absolute before:content-[''] before:w-1 before:h-full before:-left-5 before:bg-white before:top-0; }
+        .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu {
+          @apply relative after:inline-block after:absolute after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-white after:top-3 after:right-0 after:align-middle after:ml-1; }
+          .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap {
+            @apply hidden py-2 px-3.5; }
+            .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap ul {
+              @apply space-y-2 py-1; }
+              .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap ul li a {
+                @apply block text-[15px] font-montserrat; }
+            .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap div strong {
+              @apply text-[15px] font-semibold; }
+            .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap div ul {
+              @apply space-y-1 py-2 pl-3; }
+              .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu > ul > li.mobileMnuHasSubWithMegaMenu .childMenuWrap div ul li a {
+                @apply block text-sm font-montserrat font-medium; }
+    .mobileTopmenuWithMegaMenu .wrapMobileMenuWithMegaMenu .feedMobileNavWithMegaMenu {
+      @apply py-5 mx-5 flex border-t border-t-white/[.35]; }
+  .mobileTopmenuWithMegaMenu.menuMobileOpenWithMegaMenu {
+    @apply opacity-100 pointer-events-auto; }
+    .mobileTopmenuWithMegaMenu.menuMobileOpenWithMegaMenu .wrapMobileMenuWithMegaMenu {
+      @apply top-0; }

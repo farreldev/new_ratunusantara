@@ -1,0 +1,159 @@
+@@include('./themes/basic/shared/top.html')
+@@include('./themes/basic/includes/header-bg.html')
+
+<main>
+    <section class="head-inner-child-page relative py-0">
+        <!-- <div class="absolute top-0 left-0 z-0 w-full h-full"> -->
+        <div class="w-full">
+            <figure class="w-full h-full md:hidden">
+                <img class="w-full" src="assets/img/head-bg-contactpage.jpg" alt="">
+            </figure>
+            <figure class="w-full h-full hidden md:block">
+                <img class="w-full" src="assets/img/head-bg-contactpage-mobile.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <section class="bg-white pt-10 pb-10">
+        <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <div class="grid grid-cols-2 space-x-5 mb-10 md:grid-cols-1 md:space-x-0 md:space-y-5">
+                <div class="border border-gray-200 py-7 p-5 shadow-lg rounded-xl">
+                    <div class="flex space-x-2 mb-5 pb-5 border-b border-gray-200">
+                        <!-- <span class="text-bluedefault">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            </svg>
+                        </span> -->
+                        <p class="mb-0 uppercase text-lg font-medium text-bluedefault">contact us</p>
+                    </div>
+                    <div>
+                        <ul class="space-y-5">
+                            <li class="flex space-x-3">
+                                <figure class="w-7"><img class="w-full" src="assets/img/icons/phone.png" alt=""></figure>
+                                <div class="flex flex-col space-y-2">
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">office:</strong>
+                                        <p class="mb-0">(021) 6304551-54</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex space-x-3">
+                                <figure class="w-7"><img class="w-full" src="assets/img/icons/chat.png" alt=""></figure>
+                                <div class="flex flex-col space-y-2">
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">whatsapp:</strong>
+                                        <p class="mb-0">081211234567 - Name</p>
+                                    </div>
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">whatsapp:</strong>
+                                        <p class="mb-0">081211234567 - Name</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex space-x-3">
+                                <figure class="w-7"><img class="w-full" src="assets/img/icons/email.png" alt=""></figure>
+                                <div class="flex flex-col space-y-2">
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">email:</strong>
+                                        <a href="#" class="mb-0">info@sinergi.com</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border border-gray-200 py-7 p-5 shadow-lg rounded-xl">
+                    <div class="flex space-x-2 mb-5 pb-5 border-b border-gray-200">
+                        <!-- <span class="text-bluedefault">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                            </svg>
+                        </span> -->
+                        <p class="mb-0 uppercase text-lg font-medium text-bluedefault">address</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="flex space-x-3">
+                                <figure class="w-7"><img class="w-full" src="assets/img/icons/maps.png" alt=""></figure>
+                                <div class="flex flex-col space-y-2 flex-1">
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">address:</strong>
+                                        <p>Jalan Kaji no. 19-21 RT.4/RW.7, Petojo Utara, Kecamatan Gambir Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10130</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex space-x-3">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d991.6806518263326!2d106.815463!3d-6.167888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x895ec259ec567d1d!2sSinergiplasindo%20Dinamika%20PT!5e0!3m2!1sen!2sid!4v1665397506751!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </li>
+                            <!-- <li class="flex space-x-3">
+                                <figure class="w-7"><img class="w-full" src="assets/img/icons/email.png" alt=""></figure>
+                                <div class="flex flex-col space-y-2">
+                                    <div>
+                                        <strong class="capitalize font-semibold text-gray-400">email:</strong>
+                                        <a href="#" class="mb-0">info@sinergi.com</a>
+                                    </div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="mb-10 shadow-lg rounded-md overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.61207391750986!2d106.81546030993223!3d-6.1678621743052915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f67849ceecd7%3A0x895ec259ec567d1d!2sSinergiplasindo%20Dinamika%20PT!5e0!3m2!1sen!2sid!4v1665386211770!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+
+            <div>
+                <form>
+                    <div class="grid grid-cols-2 md:grid-cols-1 gap-5 mb-5">
+                        <div class="md:col-auto">
+                            <div class="bg-black/[.035] border border-gray-200 py-1 overflow-hidden rounded-sm">
+                                <input type="text" placeholder="Name" class="text-gray-700 font-montserrat text-sm w-full bg-transparent py-3 px-3 focus:outline-none" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-black/[.035] border border-gray-200 py-1 overflow-hidden rounded-sm">
+                                <input type="text" placeholder="Phone" class="text-gray-700 font-montserrat text-sm w-full bg-transparent py-3 px-3 focus:outline-none" />
+                            </div>
+                        </div>
+                        <div class="col-span-2 md:col-auto">
+                            <div class="bg-black/[.035] border border-gray-200 py-1 overflow-hidden rounded-sm">
+                                <input type="email" placeholder="Email" class="text-gray-700 font-montserrat text-sm w-full bg-transparent py-3 px-3 focus:outline-none" />
+                            </div>
+                        </div>
+                        <div class="col-span-2 md:col-auto">
+                            <div class="bg-black/[.035] border border-gray-200 py-1 overflow-hidden rounded-sm">
+                                <textarea name="" id="" cols="30" rows="7" placeholder="Message" class="text-gray-700 font-montserrat text-sm w-full bg-transparent block py-3 px-3 focus:outline-none"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-span-2 md:col-auto">
+                            <div class="bg-black/[.035] border border-gray-200 py-1 overflow-hidden rounded-sm">
+                                <input type="text" placeholder="Fill the code below" class="text-gray-700 font-montserrat text-sm w-full bg-transparent py-3 px-3 focus:outline-none" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Div ini buat Captcha  -->
+                    <div class="mb-5">
+                        <!-- ganti figure image di bawah dengan real captcha  -->
+                        <figure>
+                            <img src="assets/img/captcha.jpg" alt="">
+                        </figure>
+                    </div>
+                    <!-- End Of Captcha  -->
+
+                    <input type="submit" value="Submit" class="text-white bg-black py-2.5 px-10 font-poppins rounded-lg font-medium hover:bg-bluedefault cursor-pointer"></input>
+                </form>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+@@include('./themes/basic/includes/footer.html')
+@@include('./themes/basic/shared/bottom.html', { 
+    "scripts": [ 
+        "./assets/js/external/slick.min.js",
+        "./assets/js/external/slick-animation.min.js",
+        "./assets/js/external/sal.js"
+    ] 
+})

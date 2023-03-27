@@ -1,0 +1,229 @@
+@@include('./themes/basic/shared/top.html')
+@@include('./themes/basic/includes/header-bg.html')
+
+<main>
+    <section class="head-inner-child-page relative py-0">
+        <!-- <div class="absolute top-0 left-0 z-0 w-full h-full"> -->
+        <div class="w-full">
+            <figure class="w-full h-full md:hidden">
+                <img class="w-full" src="assets/img/head-bg-aboutpage.jpg" alt="">
+            </figure>
+            <figure class="w-full h-full hidden md:block">
+                <img class="w-full" src="assets/img/head-bg-aboutpage-mobile.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <section class="bg-white pt-10 pb-20">
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <div class="grid grid-cols-2 gap-x-20 md:grid-cols-1 md:gap-x-0 md:gap-y-5">
+                <div class="rounded-md md:rounded-2xl overflow-hidden">
+                    <figure class="w-full h-full block">
+                        <!-- <img class="w-full h-full block" src="https://via.placeholder.com/576x768" alt=""> -->
+                        <img class="w-full h-full block"
+                            src="https://images.pexels.com/photos/388419/pexels-photo-388419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </figure>
+                </div>
+                <div>
+                    <article>
+                        <p>
+                            <strong>PT. SINERGIPLASINDO DINAMIKA</strong> adalah perusahaan Multi-Nasional yang telah 17
+                            tahun berdiri dan berkembang dengan pesat. Produk andalannya yaitu Concentrace® Trace
+                            Mineral Drops (TMD) adalah suplemen mineral yang diimpor dari Amerika, mengandung unsure
+                            mineral lengkap (terdiri dari mikro dan makro bejumlah sekitar 76 jenis), bersifat ionik,
+                            seimbang, alami dan memiliki keistimewaan yang luar biasa.
+                        </p>
+                        <strong class="block">Visi &amp; Misi :</strong>
+                        <p>
+                            Dalam pengembangan bisnis di Indonesia, kami bertekad tidak sekedar mendistribusikan
+                            berbagai produk nutrisi serta produk-produk berkualitas lainnya, tetapi juga ingin menjadi
+                            saluran yang tepat bagi semua lapisan masyarakat untuk mempunyai kesejahteraan finansial dan
+                            kesehatan paripurna “Hidup Sehat Sekaligus Menjadi Jutawan”.
+                        </p>
+                        <!-- <strong class="block">Misi :</strong>
+                        <ol class="list-decimal pl-4">
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, consequatur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci voluptatum dolore!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem cumque facilis in obcaecati, incidunt suscipit?</li>
+                        </ol> -->
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#F1F8FD]">
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <!-- <div class="grid grid-cols-5 gap-x-4 md:grid-cols-1 md:gap-x-0 md:gap-y-10"> -->
+            <div class="flex md:flex-col space-x-7 md:space-x-0 justify-between items-center">
+                <div class="flex-1">
+                    <h3 class="capitalize font-montserrat font-bold text-4xl leading-tight mb-8 md:text-3xl">Sinergi
+                        Founder</h3>
+                    <p class="text-lg md:text-[16px] leading-loose font-montserrat font-medium">Robby Arif was borned on
+                        August 17, 1956. He started to get involved in Network Marketing since 1986. He established his
+                        own MLM company in 1993. Known as a spiritual motivator, MLM and international level He supports
+                        and trains MLM companies in a few Asian countries. He is also an experienced motivator in Human
+                        Resources Development. Own global Vision for Network Marketing to make it as a precious and high
+                        value to the human being life.</p>
+                    <p class="text-lg md:text-[16px] leading-loose font-montserrat font-medium">In 1996 he was chosen as
+                        an Indonesia Best Executive by Yayasan Citra. In 1997 he was invited by Indonesian President
+                        Bpk. Soeharto Negara as a Nation Man who serves Indonesia. In 2006 Mr. Robby Arif was chosen as
+                        an Indonesian Best Executive by YPPI. Books by Robby wise of inspiration and motivation.</p>
+                </div>
+                <div class="flex-1">
+                    <figure class="inline-block rounded-md overflow-hidden">
+                        <!-- <img src="https://images.pexels.com/photos/5668805/pexels-photo-5668805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> -->
+                        <img class="block" src="assets/img/bapak.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <h3 class="capitalize font-montserrat font-bold text-4xl leading-tight mb-10 md:text-3xl">history of sinergi
+            </h3>
+            <div class="flex justify-between md:flex-col space-x-7 md:space-x-0">
+                <div class="flex-1 md:mb-5">
+                    <figure class="inline-block w-full rounded-md overflow-hidden">
+                        <img class="block w-full" src="assets/img/pic-mou.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="flex-1">
+                    <ul class="dftr-lst space-y-5">
+                        <li>
+                            Sinergi short background Started by the strong willing to become a Blessing Channel after
+                            success as a member (Earn Income 40 million Rupiah), then PT. Sinergi Plasindo Dinamika was
+                            established on September 11, 1993.
+                        </li>
+                        <li>
+                            In 1998 Monetary Crisis Indonesia Crisis monetary cause many Indonesia companies get
+                            bankrupt because of Rupiah exhchange rate, PT. Sinergi also felt the impact of it. Based on
+                            the strong products and good services, at last PT. Sinergi could overcome the crisis.
+                        </li>
+                        <li>
+                            The Rise Up Year 2002 Sinergi developed their management and equiped their technology with
+                            better hardware and software technologies.
+                        </li>
+                        <li>
+                            At the new era of years 2003 - 2006 At the end of 2006, Sinergi determined to fix their
+                            internal management. It shows that PT. Sinergi has strongly excuisited their procedural
+                            management system. By the end of 2006, Sinergi has chosen as one of "The best 12 MLM"
+                            company.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#F1F8FD]">
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <h3 class="capitalize font-montserrat font-bold text-4xl text-center leading-tight mb-10 md:text-3xl">
+                &quot;sinergi eagle&quot; logo</h3>
+            <div class="flex justify-center">
+                <div class="flex items-center space-x-5 max-w-md">
+                    <div class="w-max">
+                        <figure class="inline-block">
+                            <img class="block" src="assets/img/sinergi_logo.png" alt="">
+                        </figure>
+                    </div>
+                    <span class="inline-block flex-1">Symbolized with eagle that soars high, ready to grasp upon its
+                        prey, with sharp eyes, powerfull vigor and broad horizon.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <h3 class="capitalize font-montserrat font-bold text-4xl text-center leading-tight mb-10 md:text-3xl">PT.
+                SinergiPlasindo dinamika <br /> &quot;global vision&quot; for Asia </h3>
+            <div class="grid grid-cols-9 sm:grid-cols-3 gap-7">
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/my.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/id.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/th.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/vn.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/bn.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/cn.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/tw.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/sg.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="assets/img/icons/flags/us.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <h3 class="capitalize font-montserrat font-bold text-5xl text-center leading-tight mb-16 md:text-3xl">surat ijin PT.sinergi</h3>
+            <div class="izin">
+                <div class="border-[10px] border-browns block p-3 rounded-2xl izin-item">
+                    <figure class="w-full block">
+                        <img class="w-full block" src="https://via.placeholder.com/435x590" alt="">
+                    </figure>
+                </div>
+                
+                <div class="border-[10px] border-browns block p-3 rounded-2xl izin-item">
+                    <figure class="w-full block">
+                        <img class="w-full block" src="https://via.placeholder.com/435x590" alt="">
+                    </figure>
+                </div>
+                
+                <div class="border-[10px] border-browns block p-3 rounded-2xl izin-item">
+                    <figure class="w-full block">
+                        <img class="w-full block" src="https://via.placeholder.com/435x590" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+</main>
+
+@@include('./themes/basic/includes/footer.html')
+@@include('./themes/basic/shared/bottom.html', {
+"scripts": [
+"./assets/js/external/slick.min.js",
+"./assets/js/external/slick-animation.min.js",
+"./assets/js/external/sal.js"
+]
+})

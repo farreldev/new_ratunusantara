@@ -1,0 +1,167 @@
+@@include('./themes/basic/shared/top.html')
+@@include('./themes/basic/includes/header-bg.html')
+
+<main>
+    <section class="head-inner-child-page relative py-0">
+        <!-- <div class="absolute top-0 left-0 z-0 w-full h-full"> -->
+        <div class="w-full">
+            <figure class="w-full h-full md:hidden">
+                <!-- <img class="w-full" src="assets/img/head-bg-marketingpage.jpg" alt=""> -->
+                <img class="w-full" src="https://via.placeholder.com/6000x1600" alt="">
+            </figure>
+            <figure class="w-full h-full hidden md:block">
+                <!-- <img class="w-full" src="assets/img/head-bg-marketingpage-mobile.jpg" alt=""> -->
+                <img class="w-full" src="https://via.placeholder.com/1440x2108" alt="">
+            </figure>
+        </div>
+        <!-- <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4 absolute left-2/4 -translate-x-2/4 z-[1] md:top-5 md:left-0 md:-translate-x-0">
+            <h2 class="font-montserrat text-white text-[120px] md:text-[50px] uppercase">marketing plan</h2>
+        </div> -->
+        <!-- <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4 relative z-[1] md:-top-10">
+            <h2 class="font-montserrat text-white text-[128px] md:text-[80px] capitalize">marketing plan</h2>
+        </div> -->
+    </section>
+    <div class="bg-white pt-10 pb-20">
+        <!-- <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect1.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect2.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect3.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect4.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect5.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect6.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect7.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect8.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect9.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect10.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect11.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect12.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect13.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect14.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect15.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect16.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect17.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect18.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect19.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect20.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect21.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect22.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect23.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect24.jpg" alt="">
+                </figure>
+            </section>
+            <section class="pb-0">
+                <figure>
+                    <img src="assets/img/marketing-plan/sect25.jpg" alt="">
+                </figure>
+            </section>
+            <section>
+                <figure>
+                    <img src="assets/img/marketing-plan/sect26.jpg" alt="">
+                </figure>
+            </section>
+        </div> -->
+    </div>
+</main>
+
+@@include('./themes/basic/includes/footer.html')
+@@include('./themes/basic/shared/bottom.html', { 
+    "scripts": [ 
+        "./assets/js/external/slick.min.js",
+        "./assets/js/external/slick-animation.min.js",
+        "./assets/js/external/sal.js"
+    ] 
+})

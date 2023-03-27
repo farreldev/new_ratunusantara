@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'made_tommybold';
+        src: url('../fonts/made_tommy_bold_personal_use-revv.woff2') format('woff2'),
+             url('../fonts/made_tommy_bold_personal_use-revv.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@layer components {
+    @import 'plugins/slick';
+    @import 'plugins/slick-theme';
+    @import 'plugins/animatecss';
+    @import 'plugins/custom-modal';
+}

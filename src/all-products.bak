@@ -1,0 +1,90 @@
+@@include('./themes/basic/shared/top.html')
+@@include('./themes/basic/includes/header-bg.html')
+
+<main>
+    <section class="head-inner-child-page relative py-0">
+        <!-- <div class="absolute top-0 left-0 z-0 w-full h-full"> -->
+        <div class="w-full">
+            <figure class="w-full h-full md:hidden">
+                <img class="w-full" src="assets/img/head-bg-allproductspage.jpg" alt="">
+            </figure>
+            <figure class="w-full h-full hidden md:block">
+                <img class="w-full" src="assets/img/head-bg-allproductspage-mobile.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    <!-- <section class="bg-white">
+        <div class="2xl:max-w-[1140px] xl:max-w-[960px] max-w-[1140px] w-full mx-auto px-4">
+            <div class="flex space-x-14 md:flex-col md:space-x-0 md:space-y-10">
+                <div class="max-w-md w-full md:max-w-none">
+                    <figure class="w-full inline-block rounded-[32px] md:rounded-2xl overflow-hidden">
+                        <img class="w-full block" src="assets/img/products/prod1.jpg" alt="">
+                    </figure>
+                </div>
+                <div>
+                    <article>
+                        <h3 class="capitalize text-4xl font-bold mb-5">pink lady day use</h3>
+                        <p>Pembalut ini di pergunakan untuk wanita dewasa ketika sedang menstruasi atau haid dan untuk pemakaian pada waktu aktivitas di siang hari.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="pt-5 pb-16">
+        <div
+            class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1140px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <!-- <h4 class="capitalize text-xl font-montserrat mb-3">rekomendasi untuk anda</h4> -->
+            <nav class="mb-5">
+                <ol class="list-reset py-4 rounded flex bg-grey-light text-grey rev-breadcrumbs">
+                    <li class="px-2"><a href="index.html" class="no-underline text-indigo capitalize">home</a></li>
+                    <li>/</li>
+                    <li class="px-2"><span class="text-gray-400 capitalize">products</span></li>
+                </ol>
+            </nav>
+            <div class="grid grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-7 md:gap-y-5 sm:gap-y-5">
+                <a href="trace-mineral.html"
+                    class="flex flex-col border border-blue-500/[.2] justify-between shadow-xl">
+                    <figure class="block overflow-hidden p-4 text-center">
+                        <!-- <img class="w-full h-full max-h-[240px] md:max-w-full md:max-h-max lg:max-h-[180px] xl:max-h-[200px] 1xl:max-h-[230px] object-cover object-center block" src="assets/img/products/trace_mineral.jpg" alt=""> -->
+                        <img class="h-full inline-block" src="assets/img/products/trace_mineral.jpg" alt="">
+                    </figure>
+                    <span
+                        class="bg-blue-300/[.15] block py-2 px-3 text-bluedefaultdark capitalize text-center font-medium font-montserrat">
+                        trace mineral
+                    </span>
+                </a>
+                <a href="gold-shape.html" class="flex flex-col border border-blue-500/[.2] justify-between shadow-xl">
+                    <figure class="block overflow-hidden p-4 text-center">
+                        <!-- <img class="w-full h-full max-h-[240px] md:max-w-full md:max-h-max lg:max-h-[180px] xl:max-h-[200px] 1xl:max-h-[230px] object-cover object-center block" src="assets/img/products/gold_shape.jpg" alt=""> -->
+                        <img class="h-full inline-block" src="assets/img/products/gold_shape.jpg" alt="">
+                    </figure>
+                    <span
+                        class="bg-blue-300/[.15] block py-2 px-3 text-bluedefaultdark capitalize text-center font-medium font-montserrat">
+                        gold shape
+                    </span>
+                </a>
+                <a href="fmb.html" class="flex flex-col border border-blue-500/[.2] justify-between shadow-xl">
+                    <figure class="block overflow-hidden p-4 text-center">
+                        <!-- <img class="w-full h-full max-h-[240px] md:max-w-full md:max-h-max lg:max-h-[180px] xl:max-h-[200px] 1xl:max-h-[230px] object-cover object-center block" src="assets/img/products/fmb.jpg" alt=""> -->
+                        <img class="h-full inline-block" src="assets/img/products/fmb.jpg" alt="">
+                    </figure>
+                    <span
+                        class="bg-blue-300/[.15] block py-2 px-3 text-bluedefaultdark capitalize text-center font-medium font-montserrat">
+                        FMB
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+@@include('./themes/basic/includes/footer.html')
+@@include('./themes/basic/shared/bottom.html', {
+"scripts": [
+"./assets/js/external/slick.min.js",
+"./assets/js/external/slick-animation.min.js",
+"./assets/js/external/sal.js"
+]
+})
