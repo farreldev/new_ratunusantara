@@ -103,7 +103,7 @@ strong {
               .headNav .topmenu > ul li.sublst .wrap-sub ul li a {
                 @apply block py-1 px-2; }
                 .headNav .topmenu > ul li.sublst .wrap-sub ul li a:hover {
-                  @apply bg-black text-white rounded; }
+                  @apply bg-primarydefault text-white rounded; }
           .headNav .topmenu > ul li.sublst:hover .wrap-sub {
             @apply block; }
   .headNav .humburger-btn {
