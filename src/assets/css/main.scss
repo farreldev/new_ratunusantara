@@ -317,7 +317,7 @@ strong {
 	li {
 		button {
 			&:before {
-				@apply md:text-4xl sm:text-2xl;
+				@apply text-4xl;
 			}
 		}
 		&.slick-active {

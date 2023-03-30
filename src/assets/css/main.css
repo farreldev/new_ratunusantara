@@ -157,7 +157,7 @@ strong {
   @apply mx-3; }
 
 .slick-dots li button:before {
-  @apply md:text-4xl sm:text-2xl; }
+  @apply text-4xl; }
 
 .slick-dots li.slick-active button:before {
   @apply text-primarydefault; }

@@ -212,6 +212,37 @@ const app = (() => {
 			],
 			// adaptiveHeight: true
 		});
+		$(".slide-events").slick({
+			dots: true,
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			speed: 700,
+			arrows: true,
+			prevArrow: "#prevEvent",
+			nextArrow: "#nextEvent",
+			responsive: [
+				{
+					breakpoint: 960,
+					settings: {
+						dots: true,
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					},
+				},
+				{
+					breakpoint: 576,
+					settings: {
+						dots: true,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					},
+				},
+			],
+			// adaptiveHeight: true
+		});
 	}
 
 	// -----------------
