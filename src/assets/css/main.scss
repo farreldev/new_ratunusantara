@@ -43,8 +43,12 @@ body {
 }
 
 p {
-	@apply text-gray-600 font-jakarta font-medium leading-relaxed mb-5 md:text-sm md:leading-normal;
+	@apply text-gray-500 font-jakarta leading-relaxed mb-5 md:text-sm md:leading-normal;
 }
+a {
+	@apply text-gray-500 font-jakarta;
+}
+
 strong {
 	@apply text-gray-600 font-jakarta leading-relaxed;
 }
@@ -149,7 +153,7 @@ strong {
 	.topmenu {
 		@apply mr-4 relative;
 		> ul {
-			@apply space-x-7;
+			@apply space-x-5;
 			li {
 				@apply inline-block cursor-pointer;
 				> a {
