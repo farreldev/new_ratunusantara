@@ -157,7 +157,7 @@ strong {
 			li {
 				@apply inline-block cursor-pointer;
 				> a {
-					@apply text-base inline-block text-black font-jakarta capitalize relative;
+					@apply text-sm inline-block font-medium text-black font-jakarta capitalize relative;
 				}
 				// &:not(:last-child) {
 				// 	@apply pr-7;
@@ -174,7 +174,8 @@ strong {
 					}
 				}
 				&.sublst {
-					@apply after:inline-block after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:relative after:-top-[1px] after:align-middle after:ml-1;
+					// @apply after:inline-block after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:relative after:-top-[1px] after:align-middle after:ml-1;
+					@apply after:inline-block after:content-['∟'] after:-rotate-45 after:font-bold after:text-base after:relative after:top-[-1px];
 					.wrap-sub {
 						@apply absolute pt-5 left-0 w-full min-w-[620px] hidden;
 						ul {
@@ -281,7 +282,11 @@ strong {
 				// 	}
 				// }
 				&.mobileMnuHasSub {
-					@apply relative after:inline-block after:absolute after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:top-3 after:right-0 after:align-middle after:ml-1;
+					// @apply relative after:inline-block after:absolute after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:top-3 after:right-0 after:align-middle after:ml-1;
+					@apply relative after:inline-block after:content-['∟'] after:-rotate-45 after:font-bold after:text-base after:text-gray-900 after:absolute after:right-0 after:top-0.5;
+					&:after {
+						text-shadow: 0 0 1px black;
+					}
 					ul {
 						@apply py-3 hidden;
 						li {

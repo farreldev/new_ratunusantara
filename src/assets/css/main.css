@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -92,13 +93,13 @@ strong {
       .headNav .topmenu > ul li {
         @apply inline-block cursor-pointer; }
         .headNav .topmenu > ul li > a {
-          @apply text-base inline-block text-black font-jakarta capitalize relative; }
+          @apply text-sm inline-block font-medium text-black font-jakarta capitalize relative; }
         .headNav .topmenu > ul li.active > a {
           @apply font-bold; }
         .headNav .topmenu > ul li:hover > a {
           @apply text-black/[.7]; }
         .headNav .topmenu > ul li.sublst {
-          @apply after:inline-block after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:relative after:-top-[1px] after:align-middle after:ml-1; }
+          @apply after:inline-block after:content-['∟'] after:-rotate-45 after:font-bold after:text-base after:relative after:top-[-1px]; }
           .headNav .topmenu > ul li.sublst .wrap-sub {
             @apply absolute pt-5 left-0 w-full min-w-[620px] hidden; }
             .headNav .topmenu > ul li.sublst .wrap-sub ul li {
@@ -137,7 +138,9 @@ strong {
         .mobileTopmenu .wrapMobileMenu ul li.active {
           @apply before:absolute before:w-[3px] before:h-full before:bg-primarydefault before:top-0 before:-left-5; }
         .mobileTopmenu .wrapMobileMenu ul li.mobileMnuHasSub {
-          @apply relative after:inline-block after:absolute after:content-[''] after:border-t-[.3em] after:border-r-[.3em] after:border-r-transparent after:border-l-transparent after:border-l-[.3em] after:border-b-0 after:border-black after:top-3 after:right-0 after:align-middle after:ml-1; }
+          @apply relative after:inline-block after:content-['∟'] after:-rotate-45 after:font-bold after:text-base after:text-gray-900 after:absolute after:right-0 after:top-0.5; }
+          .mobileTopmenu .wrapMobileMenu ul li.mobileMnuHasSub:after {
+            text-shadow: 0 0 1px black; }
           .mobileTopmenu .wrapMobileMenu ul li.mobileMnuHasSub ul {
             @apply py-3 hidden; }
             .mobileTopmenu .wrapMobileMenu ul li.mobileMnuHasSub ul li {
