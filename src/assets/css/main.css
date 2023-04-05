@@ -13,10 +13,10 @@ body {
     @apply pt-24 sm:pt-16 md:pt-16 overflow-x-hidden; }
 
 p {
-  @apply text-gray-500 font-jakarta leading-relaxed mb-5 md:text-sm md:leading-normal; }
+  @apply text-gray-700 font-jakarta leading-relaxed mb-5 md:text-sm md:leading-normal; }
 
 a {
-  @apply text-gray-500 font-jakarta; }
+  @apply text-gray-700 font-jakarta; }
 
 strong {
   @apply text-gray-600 font-jakarta leading-relaxed; }
@@ -36,6 +36,9 @@ strong {
   @apply inline-block sm:block p-4 rounded-t-lg border-b-2 border-transparent hover:text-primarydefault uppercase; }
   .item-tab.currentTab {
     @apply border-primarydefault text-primarydefault font-semibold; }
+
+.tab-content p {
+  @apply text-gray-700; }
 
 .otherTitle {
   @apply capitalize relative before:absolute before:top-2/4 -translate-y-2/4 before:-right-16 before:content-[''] before:h-[1px] before:w-[50px] before:bg-red-500; }
@@ -100,7 +103,7 @@ strong {
 .dftr-lst-std-default {
   @apply py-3 list-disc pl-4; }
   .dftr-lst-std-default li {
-    @apply text-[#333] font-jakarta; }
+    @apply text-gray-700 font-jakarta; }
 
 .dftr-lst-std-num {
   @apply py-3 list-decimal pl-4; }
@@ -193,6 +196,17 @@ strong {
 /* the slides */
 .slick-slide {
   @apply mx-3; }
+
+.thumb-detail-slider .slick-list {
+  @apply -mx-1; }
+  .thumb-detail-slider .slick-list .slick-slide {
+    @apply mx-1; }
+
+.thumb-detail-slider .thumbnail-button {
+  @apply cursor-pointer; }
+  .thumb-detail-slider .thumbnail-button.thumb-selected figure, .thumb-detail-slider .thumbnail-button.slick-current figure {
+    outline: 3px solid var(--primary-default);
+    outline-offset: -3px; }
 
 .slick-dots li button:before {
   @apply text-4xl; }

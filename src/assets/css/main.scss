@@ -43,10 +43,10 @@ body {
 }
 
 p {
-	@apply text-gray-500 font-jakarta leading-relaxed mb-5 md:text-sm md:leading-normal;
+	@apply text-gray-700 font-jakarta leading-relaxed mb-5 md:text-sm md:leading-normal;
 }
 a {
-	@apply text-gray-500 font-jakarta;
+	@apply text-gray-700 font-jakarta;
 }
 
 strong {
@@ -76,6 +76,12 @@ strong {
 	@apply inline-block sm:block p-4 rounded-t-lg border-b-2 border-transparent hover:text-primarydefault uppercase;
 	&.currentTab {
 		@apply border-primarydefault text-primarydefault font-semibold;
+	}
+}
+
+.tab-content {
+	p {
+		@apply text-gray-700;
 	}
 }
 
@@ -170,7 +176,7 @@ strong {
 .dftr-lst-std-default {
 	@apply py-3 list-disc pl-4;
 	li {
-		@apply text-[#333] font-jakarta;
+		@apply text-gray-700 font-jakarta;
 	}
 }
 
@@ -369,6 +375,24 @@ strong {
 /* the slides */
 .slick-slide {
 	@apply mx-3;
+}
+
+.thumb-detail-slider {
+	.slick-list {
+		@apply -mx-1;
+		.slick-slide {
+			@apply mx-1;
+		}
+	}
+	.thumbnail-button {
+		@apply cursor-pointer;
+		&.thumb-selected, &.slick-current {
+			figure {
+				outline: 3px solid var(--primary-default);
+				outline-offset: -3px;
+			}
+		}
+	}
 }
 
 .slick-dots {

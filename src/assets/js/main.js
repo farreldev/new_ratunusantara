@@ -91,6 +91,14 @@ const app = (() => {
 			$navH.toggleClass("gulung", $(this).scrollTop() > $navH.height());
 		});
 
+		// $('.thumb-detail-slider .thumbnail-button').each(function(index) {
+		// 	$(this).on('click', function() {
+			 // Move aria-current="true" to this button
+	// 		 $('.thumb-detail-slider').find('.thumbnail-button').removeClass('thumb-selected');
+	// 		 $(this).addClass('thumb-selected')
+	// 	 });
+	//  });
+
 		// Horizontal-tabs
 		$('#tabs-nav li:first-child a').addClass('currentTab');
 		$('.tab-content').hide();
@@ -184,17 +192,32 @@ const app = (() => {
 			nextArrow: "#nextIngredient2",
 			adaptiveHeight: true,
 		});
-		$(".prod-detail-slide").slick({
+		$(".prod-detail-slider").slick({
 			dots: false,
 			infinite: false,
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			autoplay: true,
+			autoplay: false,
+			asNavFor: ".thumb-detail-slider",
 			autoplaySpeed: 3000,
 			speed: 700,
-			arrows: true,
-			prevArrow: "#prevProdRVPro",
-			nextArrow: "#nextProdRVPro",
+			arrows: false,
+			// prevArrow: "#prevProdRVPro",
+			// nextArrow: "#nextProdRVPro",
+		});
+		$(".thumb-detail-slider").slick({
+			dots: false,
+			infinite: false,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			asNavFor: ".prod-detail-slider",
+			focusOnSelect: true,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			speed: 700,
+			arrows: false,
+			// prevArrow: "#prevProdRVPro",
+			// nextArrow: "#nextProdRVPro",
 		});
 
 		$(".slide-product").slick({
