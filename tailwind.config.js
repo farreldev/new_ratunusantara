@@ -25,6 +25,7 @@ module.exports = {
 				primarydefault: "var(--primary-default)",
 				primarydefaultdark: "var(--primary-dark)",
 				graydark: "var(--dark)",
+				yellow: "var(--yellow)",
 				silver: "#C4C4C4",
 			},
 		},

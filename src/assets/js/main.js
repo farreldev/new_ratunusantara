@@ -91,6 +91,22 @@ const app = (() => {
 			$navH.toggleClass("gulung", $(this).scrollTop() > $navH.height());
 		});
 
+		// Horizontal-tabs
+		$('#tabs-nav li:first-child a').addClass('currentTab');
+		$('.tab-content').hide();
+		$('.tab-content:first').show();
+		// Click function
+		$('#tabs-nav li a').on('click', function(){
+			$('#tabs-nav li a').removeClass('currentTab');
+			$(this).addClass('currentTab');
+			$('.tab-content').hide();
+			
+			var activeTab = $(this).attr('href');
+			$(activeTab).show();
+			return false;
+		});
+		// End Horizontal-tabs
+
 		// $('.topmenu ul li, .mobileTopmenu ul li').on('click', 'a[href^="#"]', function(e){
 		// 	e.preventDefault();
 		// 	let anchor = this.hash;

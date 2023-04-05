@@ -58,6 +58,27 @@ strong {
 	@apply rotate-180 uppercase absolute h-max left-0 md:left-2;
 }
 
+.rating-star {
+	li {
+		@apply relative inline-block;
+		span {
+			@apply block w-6 h-6 relative before:absolute before:content-['★'] before:text-2xl before:top-2/4 before:left-2/4 before:-translate-y-2/4 before:-translate-x-2/4 before:text-[#ddd];
+		}
+		&.star {
+			span {
+				@apply before:text-yellow;
+			}
+		}
+	}
+}
+
+.item-tab {
+	@apply inline-block sm:block p-4 rounded-t-lg border-b-2 border-transparent hover:text-primarydefault uppercase;
+	&.currentTab {
+		@apply border-primarydefault text-primarydefault font-semibold;
+	}
+}
+
 .otherTitle {
 	@apply capitalize relative before:absolute before:top-2/4 -translate-y-2/4 before:-right-16 before:content-[''] before:h-[1px] before:w-[50px] before:bg-red-500;
 }
@@ -136,6 +157,34 @@ strong {
 			background-image: url("../img/double-arrow.png");
 			background-size: contain;
 		}
+	}
+}
+
+.dftr-lst-std {
+	@apply py-3 list-disc list-inside;
+	li {
+		@apply text-[#333] font-jakarta;
+	}
+}
+
+.dftr-lst-std-default {
+	@apply py-3 list-disc pl-4;
+	li {
+		@apply text-[#333] font-jakarta;
+	}
+}
+
+.dftr-lst-std-num {
+	@apply py-3 list-decimal pl-4;
+	li {
+		@apply text-[#333] font-jakarta;
+	}
+}
+
+.dftr-lst-std-alpha {
+	@apply py-3 list-[lower-alpha] pl-4;
+	li {
+		@apply text-[#333] font-jakarta;
 	}
 }
 

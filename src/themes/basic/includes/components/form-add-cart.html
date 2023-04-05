@@ -1,0 +1,44 @@
+<form>
+   <div class="grid grid-cols-1 gap-6 mb-7">
+       <div>
+           <div class="bg-black/[.035] border border-gray-200 py-2 px-2 overflow-hidden rounded-sm">
+               <select name="select" name="variant-plan" id="variant-plan" title="variant" class="w-full bg-transparent py-1 focus:outline-none">
+                   <option value="">Pilih Variant Produk</option>
+                   <option value="Variant one">Variant One</option>
+                   <option value="Variant two">Variant Two</option>
+                 </select>
+           </div>
+       </div>
+       <div>
+           <div class="bg-black/[.035] border border-gray-200 py-2 px-2 overflow-hidden rounded-sm">
+               <select name="select" name="category-plan" id="category-plan" title="category" class="w-full bg-transparent py-1 focus:outline-none">
+                   <option value="">Pilih Kategori Plan</option>
+                   <option value="Kategori plan satu">Kategori Plan Satu</option>
+                   <option value="Kategori plan dua">Kategori Plan Dua</option>
+                 </select>
+           </div>
+       </div>
+       <div>
+           <div class="bg-black/[.035] border border-gray-200 py-2 px-2 overflow-hidden rounded-sm">
+               <select name="select" name="option-kit" id="option-kit" title="category" class="w-full bg-transparent py-1 focus:outline-none">
+                   <option value="">Pilih Kit</option>
+                   <option value="Kit satu">Kit Satu</option>
+                   <option value="Kit dua">Kit Dua</option>
+                 </select>
+           </div>
+       </div>
+   </div>
+   <label>Qty</label>
+   <div class="flex min-h-[50px] mt-2 h-full space-x-3">
+       <div class="max-w-[55px] w-full">
+           <div class="bg-black/[.035] border border-gray-200 overflow-hidden rounded-sm h-full w-full">
+               <input title="qty" type="text" placeholder=""
+                   class="text-gray-700 font-jakarta text-center text-base bg-transparent h-full w-full px-3 focus:outline-none" />
+           </div>
+       </div>
+       <div class="flex-1">
+           <input type="submit" value="Tambah Keranjang"
+               class="text-white bg-primarydefault h-full w-full px-10 font-poppins rounded-sm font-medium hover:bg-primarydefaultdark block cursor-pointer"></input>
+       </div>
+   </div>
+</form>
