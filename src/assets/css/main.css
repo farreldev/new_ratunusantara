@@ -125,26 +125,26 @@ strong {
     @apply mr-4 relative; }
     .headNav .topmenu > ul {
       @apply space-x-5; }
-      .headNav .topmenu > ul li {
+      .headNav .topmenu > ul > li {
         @apply inline-block cursor-pointer; }
-        .headNav .topmenu > ul li > a {
-          @apply text-sm inline-block font-medium text-black font-jakarta capitalize relative; }
-        .headNav .topmenu > ul li.active > a {
-          @apply font-bold; }
-        .headNav .topmenu > ul li:hover > a {
-          @apply text-black/[.7]; }
-        .headNav .topmenu > ul li.sublst {
+        .headNav .topmenu > ul > li > a {
+          @apply text-sm inline-block font-medium relative text-black font-jakarta capitalize relative before:absolute before:content-[''] before:h-[4px] before:w-[20px] before:bg-primarydefault before:bottom-[-10px] before:rounded-[4px] before:origin-left before:transition-all before:duration-300 before:opacity-0 before:scale-x-0; }
+        .headNav .topmenu > ul > li.active > a {
+          @apply before:scale-x-100 before:opacity-100; }
+        .headNav .topmenu > ul > li:hover > a {
+          @apply before:scale-x-100 before:opacity-100; }
+        .headNav .topmenu > ul > li.sublst {
           @apply after:inline-block after:content-['∟'] after:-rotate-45 after:font-bold after:text-base after:relative after:top-[-1px]; }
-          .headNav .topmenu > ul li.sublst .wrap-sub {
-            @apply absolute pt-5 left-0 w-full min-w-[620px] hidden; }
-            .headNav .topmenu > ul li.sublst .wrap-sub ul li {
+          .headNav .topmenu > ul > li.sublst .wrap-sub {
+            @apply absolute pt-10 left-0 w-full min-w-[620px] origin-center transition-all scale-0 opacity-0 translate-y-16 pointer-events-none; }
+            .headNav .topmenu > ul > li.sublst .wrap-sub ul li {
               @apply block; }
-              .headNav .topmenu > ul li.sublst .wrap-sub ul li a {
-                @apply block py-1 px-2; }
-                .headNav .topmenu > ul li.sublst .wrap-sub ul li a:hover {
-                  @apply bg-primarydefault text-white rounded; }
-          .headNav .topmenu > ul li.sublst:hover .wrap-sub {
-            @apply block; }
+              .headNav .topmenu > ul > li.sublst .wrap-sub ul li a {
+                @apply block text-black rounded overflow-hidden font-medium py-1 px-2 relative z-[1] before:absolute before:content-[''] before:bg-primarydefault before:w-64 before:h-64 before:origin-top-left before:scale-0 before:invisible before:transition-all before:duration-[.35s] before:ease-in-out before:top-0 before:left-0; }
+                .headNav .topmenu > ul > li.sublst .wrap-sub ul li a:hover {
+                  @apply text-white before:scale-150 before:rounded-br-full before:z-[-1] before:visible; }
+          .headNav .topmenu > ul > li.sublst:hover .wrap-sub {
+            @apply block -translate-y-2 scale-100 opacity-100 pointer-events-auto; }
   .headNav .humburger-btn {
     @apply text-black inline-block; }
   .headNav.gulung {
