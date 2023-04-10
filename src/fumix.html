@@ -1,0 +1,211 @@
+@@include('./themes/basic/shared/top.html')
+@@include('./themes/basic/includes/header-bg.html')
+
+<main>
+    <!-- <section class="head-inner-child-page relative py-0"> -->
+        <!-- <div class="absolute top-0 left-0 z-0 w-full h-full"> -->
+        <!-- <div class="w-full">
+            <figure class="w-full h-full md:hidden">
+                <img class="w-full" src="https://via.placeholder.com/6000x1600" alt="">
+            </figure>
+            <figure class="w-full h-full hidden md:block">
+                <img class="w-full" src="https://via.placeholder.com/1440x2108" alt="">
+            </figure>
+        </div> -->
+        <!-- <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1200px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4 absolute left-2/4 -translate-x-2/4 z-[1] md:top-5 md:left-0 md:-translate-x-0">
+            <h2 class="font-montserrat text-white text-[120px] md:text-[50px] uppercase">product</h2>
+        </div> -->
+    <!-- </section> -->
+    <section class="bg-white pt-5 pb-10">
+        <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1200px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <!-- <div class="grid grid-cols-2 gap-x-20 md:grid-cols-1 md:gap-x-0 md:gap-y-5 items-center"> -->
+            <nav class="mb-5">
+                <ol class="list-reset py-4 rounded flex bg-grey-light text-grey rev-breadcrumbs">
+                    <li class="px-2"><a href="index.html" class="no-underline text-indigo capitalize">home</a></li>
+                    <li>/</li>
+                    <li class="px-2"><a href="all-products.html" class="text-indigo capitalize">products</a></li>
+                    <li>/</li>
+                    <li class="px-2"><span class="no-underline text-primarydefault capitalize">FUMIX</span></li>
+                </ol>
+            </nav>
+            <div class="flex space-x-14 md:flex-col md:space-x-0 md:space-y-10 mb-7">
+                <div class="max-w-[40%] md:max-w-none relative">
+                    <div class="border border-gray-400 overflow-hidden mb-2">
+                        <div class="prod-detail-slider">
+                            <div>
+                                <figure class="w-full block overflow-hidden">
+                                    <!-- <img class="w-full block" src="https://via.placeholder.com/800x800" alt=""> -->
+                                    <img class="w-full block" src="assets/img/products/FUMIX.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[50%] md:max-w-none">
+                    <article>
+                        <h3 class="capitalize text-4xl font-montserrat font-bold mb-5">FUMIX</h3>
+                        <p class="text-lg space-x-3.5 text-gray-400 mb-2"><span class="text-gray-800 font-medium">Rp. 100.000</span><s>Rp. 200.000</s></p>
+                        <ul class="rating-star mb-3">
+                            <li class="star"><span></span></li>
+                            <li class="star"><span></span></li>
+                            <li class="star"><span></span></li>
+                            <li class="star"><span></span></li>
+                            <li class="star"><span></span></li>
+                        </ul>
+                        <p class="text-base">Fumix adalah Madu anti masuk angin dengan formula istimewa yang didalamnya terkandung jahe, Madu Murni dan Royal Jelly</p>
+                        <div class="accordion space-y-1 w-full border-x border-b border-x-gray-200 border-b-gray-200">
+                            <div class="accordion__item">
+                                <div class="accordion__title py-3 border-t border-t-gray-200">
+                                    <div class="accordion__arrow top15">
+                                        <span class="accordion__arrow-item text-browns">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <span class="accordion__title-text text-lg font-montserrat font-medium text-graydark px-3">manfaat</span>
+                                </div>
+                                <div class="accordion__content white-bg px-5 py-3.5">
+                                    <ul class="accordi-list-style space-y-1">
+                                        <li>Menjaga immun (Sistem kekebalan tubuh)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__title py-3 border-t border-t-gray-200">
+                                    <div class="accordion__arrow top15">
+                                        <span class="accordion__arrow-item text-browns">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <span class="accordion__title-text text-lg font-montserrat font-medium text-graydark px-3">kandungan produk</span>
+                                </div>
+                                <div class="accordion__content white-bg px-5 py-3.5">
+                                    <strong class="block mb-3">Lorem - Ipsum Dolor :</strong>
+                                    <ul class="accordi-list-style space-y-5">
+                                        <li>
+                                            <div>
+                                                <strong class="block">LOREM IPSUM</strong>
+                                                <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <strong class="block">LOREM IPSUM DOLOR</strong>
+                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dicta.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__title py-3 border-t border-t-gray-200">
+                                    <div class="accordion__arrow top15">
+                                        <span class="accordion__arrow-item text-browns">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <span class="accordion__title-text text-lg font-montserrat font-medium text-graydark px-3">keunggulan produk</span>
+                                </div>
+                                <div class="accordion__content white-bg px-5 py-3.5">
+                                    
+                                    <ul class="accordi-list-style space-y-5">
+                                        <li>
+                                            <div>
+                                                <strong class="block">LOREM IPSUM</strong>
+                                                <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <strong class="block">LOREM IPSUM DOLOR</strong>
+                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dicta.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                         </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-0">
+        <div class="3xl:max-w-[1320px] 2xl:max-w-[1200px] 1xl:max-w-[1200px] xl:max-w-[1024px] lg:max-w-[960px] max-w-[1320px] w-full mx-auto px-4">
+            <h4 class="capitalize text-xl font-montserrat mb-3">produk serupa</h4>
+            <div class="grid grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-x-5 gap-y-10 md:gap-y-5 sm:gap-y-5">
+                <!-- <a href="" class="flex flex-col justify-between">
+                    <figure class="block overflow-hidden text-center mb-3">
+                        <img class="h-full inline-block" src="assets/img/products/FuCinnamon.jpg" alt="">
+                    </figure>
+                    <div class="block py-2 px-3">
+                        <p class="text-bluedefaultdark capitalize text-center font-jakarta">
+                            <strong class="font-bold text-xl block mb-1">FuCinnamon</strong>
+                            <span class="inline-block">Rp 100.000</span>
+                        </p>
+                    </div>
+                </a> -->
+                <a href="liver-power-nusantara.html" class="flex flex-col justify-between">
+                    <figure class="block overflow-hidden text-center mb-3">
+                        <img class="h-full inline-block" src="assets/img/products/liverpower_nusantara.jpg" alt="">
+                    </figure>
+                    <div class="block py-2 px-3">
+                        <p class="text-bluedefaultdark capitalize text-center font-jakarta">
+                            <strong class="font-bold text-xl block mb-1">liver power nusantara</strong>
+                            <span class="inline-block">Rp 100.000</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="mahkota-dewa-nusantara.html" class="flex flex-col justify-between">
+                    <figure class="block overflow-hidden text-center">
+                        <img class="h-full inline-block" src="assets/img/products/mahkota_dewa_nusantara.jpg" alt="">
+                    </figure>
+                    <div class="block py-2 px-3">
+                        <p class="text-bluedefaultdark capitalize text-center font-jakarta">
+                            <strong class="font-bold text-xl block mb-1">mahkota dewa nusantara</strong>
+                            <span class="inline-block">Rp 100.000</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="propolis-nusantara.html" class="flex flex-col justify-between">
+                    <figure class="block overflow-hidden text-center">
+                        <img class="h-full inline-block" src="assets/img/products/propolis_nusantara.jpg" alt="">
+                    </figure>
+                    <div class="block py-2 px-3">
+                        <p class="text-bluedefaultdark capitalize text-center font-jakarta">
+                            <strong class="font-bold text-xl block mb-1">propolis nusantara</strong>
+                            <span class="inline-block">Rp 100.000</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="madu-bunga-kelengkeng.html" class="flex flex-col justify-between">
+                    <figure class="block overflow-hidden text-center">
+                        <img class="h-full inline-block" src="assets/img/products/madu-bunga.jpg" alt="">
+                    </figure>
+                    <div class="block py-2 px-3">
+                        <p class="text-bluedefaultdark capitalize text-center font-jakarta">
+                            <strong class="font-bold text-xl block mb-1">madu bunga kelengkeng</strong>
+                            <span class="inline-block">Rp 100.000</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+</main>
+
+@@include('./themes/basic/includes/footer.html')
+@@include('./themes/basic/shared/bottom.html', { 
+    "scripts": [ 
+        "./assets/js/external/slick.min.js",
+        "./assets/js/external/slick-animation.min.js",
+        "./assets/js/external/sal.js"
+    ] 
+})
