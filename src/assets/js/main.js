@@ -141,57 +141,7 @@ const app = (() => {
 			slidesToScroll: 1,
 			adaptiveHeight: true,
 		});
-
-		$(".testimonial-slide").slick({
-			dots: false,
-			infinite: false,
-			slidesToShow: 3,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 3000,
-			speed: 700,
-			arrows: true,
-			prevArrow: "#prevTestimon",
-			nextArrow: "#nextTestimon",
-			responsive: [
-				{
-					breakpoint: 960,
-					settings: {
-						// dots: true,
-						variableWidth: false,
-						slidesToShow: 1,
-						slidesToScroll: 1,
-					},
-				},
-			],
-			// adaptiveHeight: true
-		});
-		$(".ingredient-slider").slick({
-			dots: false,
-			infinite: false,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 3000,
-			speed: 700,
-			arrows: true,
-			prevArrow: "#prevIngredient",
-			nextArrow: "#nextIngredient",
-			adaptiveHeight: true,
-		});
-		$(".ingredient-slider2").slick({
-			dots: false,
-			infinite: false,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 3000,
-			speed: 700,
-			arrows: true,
-			prevArrow: "#prevIngredient2",
-			nextArrow: "#nextIngredient2",
-			adaptiveHeight: true,
-		});
+		
 		$(".prod-detail-slider").slick({
 			dots: false,
 			infinite: false,
@@ -257,6 +207,7 @@ const app = (() => {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			autoplay: true,
+			adaptiveHeight: true,
 			autoplaySpeed: 5000,
 			speed: 700,
 			arrows: true,
